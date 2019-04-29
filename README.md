@@ -67,6 +67,11 @@ Please get your project params from RUM Console.
 	// async
 	err := SendCustomEvents(eventList []map[string]interface{}, callback func (errorCode int, errInfo string))
 	err := SendCustomEvents(eventList []map[string]interface{}, callback func (errorCode int, errInfo string), timeout time.Duration)
+	
+### Set Rum ID And Session ID (Optional, If not specified, a random one will be generated)
+
+	SetRid(rid string)
+	SetSid(sid int64)
 
 ### Demo
 
