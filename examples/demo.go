@@ -28,8 +28,8 @@ func main() {
 
 	client := rum.NewRUMServerClient(41000015, "affc562c-8796-4714-b8ae-4b061ca48a6b", "52.83.220.166:13609")
 
-	//client.SetRid("ttttttt-rid")
-	//client.SetSid(123456)
+	//client.SetRumId("ttttttt-rid")
+	//client.SetSessionId(123456)
 
 	attrs := make(map[string]interface{})
 	attrs["aaa"] = "bbb"
