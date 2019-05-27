@@ -70,8 +70,8 @@ Please get your project params from RUM Console.
 	
 ### Set Rum ID And Session ID (Optional, If not specified, a random one will be generated)
 
-	SetRid(rid string)
-	SetSid(sid int64)
+	SetRumId(rid string)
+	SetSessionId(sid int64)
 
 ### Demo
 

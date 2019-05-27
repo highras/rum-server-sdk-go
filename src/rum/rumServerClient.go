@@ -84,11 +84,11 @@ func (client *RUMServerClient) SetLogger(logger *log.Logger) {
 	client.client.SetLogger(logger)
 }
 
-func (client *RUMServerClient) SetRid(rid string) {
+func (client *RUMServerClient) SetRumId(rid string) {
 	client.rid = rid
 }
 
-func (client *RUMServerClient) SetSid(sid int64) {
+func (client *RUMServerClient) SetSessionId(sid int64) {
 	client.sid = sid
 }
 
